@@ -8,7 +8,7 @@ const SingleReview = ({ singleReview }) => {
             <div className='ratings'>
                 <div>
                     <h3 className='reviewer-name'>{name}</h3>
-                    <p><small>{date}</small></p>
+                    <p className='date'><small>{date}</small></p>
                 </div>
                 <p>Ratings: {ratings}</p>
             </div>
