@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(222, 217, 211, 0.368);
+}
+
+.header h1 {
+    margin-left: 30px;
+}
+
+.navbar {
+    margin-right: 30px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+}
