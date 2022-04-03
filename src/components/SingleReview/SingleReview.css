@@ -1,0 +1,16 @@
+.review-details {
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewer-name {
+    margin-bottom: 0;
+}
