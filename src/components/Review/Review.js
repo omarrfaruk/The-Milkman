@@ -7,6 +7,7 @@ const Review = () => {
 
     return (
         <div>
+            <h1 style={{ textAlign: 'center' }}>WHAT THE READER SAYS .....</h1>
             {
                 review.map(singleReview => <SingleReview
                     key={singleReview._id}

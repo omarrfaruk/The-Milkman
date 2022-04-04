@@ -14,7 +14,7 @@
 
 .description button {
     padding: 10px 25px;
-    background-color: rgba(159, 147, 133, 0.842);
+    background-color: rgba(39, 36, 33, 0.842);
     color: #ffff;
     border: none;
     border-radius: 10px;
@@ -22,9 +22,15 @@
     font-size: 18px;
 }
 
-.home-page h1 {
+.description button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.description h1 {
     font-size: 50px;
-    color: rgb(114, 95, 95)
+    color: rgb(114, 95, 95);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .home-page p {
@@ -37,14 +43,39 @@
     display: flex;
     justify-content: center;
     margin: 50px 0;
+    border-radius: 5px;
+    border: 1px solid red;
 }
 
 .review-home {
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .review-home h2 {
     text-align: center;
     font-size: 35px;
     color: rgb(89, 84, 84);
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.review-btn {
+    padding: 10px 25px;
+    background-color: rgba(91, 112, 117, 0.842);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:680px) {
+    .home-page {
+        background-color: red;
+    }
 }

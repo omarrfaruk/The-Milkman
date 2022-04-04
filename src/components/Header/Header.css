@@ -5,15 +5,33 @@
     background-color: rgba(222, 217, 211, 0.368);
 }
 
+.header a {
+    text-decoration: none;
+}
+
 .header h1 {
     margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(52, 40, 40);
 }
 
 .navbar {
     margin-right: 30px;
+    display: flex;
+
 }
 
 .navbar a {
     margin-right: 20px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(86, 199, 244);
+}
+
+@media screen and (max-width: 680px) {
+    .header {
+        display: none;
+    }
 }

@@ -1,4 +1,6 @@
 .charts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+    grid-row-gap: 50px;
 }

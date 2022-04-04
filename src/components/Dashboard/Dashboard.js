@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart, Tooltip, XAxis, YAxis } from "recharts";
 import './Dashboard.css'
 
 const Dashboard = () => {
@@ -63,6 +63,14 @@ const Dashboard = () => {
                 <Bar dataKey={"revenue"} fill="#8884d8"></Bar>
                 <Bar dataKey={"sell"} ></Bar>
             </BarChart>
+            <RadarChart outerRadius={90} width={730} height={250} data={data}>
+                <PolarGrid />
+                <PolarAngleAxis dataKey="month" />
+                <Tooltip />
+                <PolarRadiusAxis angle={30} domain={[0, 150]} />
+                <Radar dataKey={"investment"} stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6}></Radar>
+                <Radar dataKey={"revenue"} stroke="#8884d8" fill="#8884d8" fillOpacity={0.6}></Radar>
+            </RadarChart>
         </div>
     );
 };
