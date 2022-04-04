@@ -12,10 +12,10 @@
     margin: 0 50px;
 }
 
+
 .description button {
     padding: 10px 25px;
     background-color: rgba(39, 36, 33, 0.842);
-    color: #ffff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -29,7 +29,7 @@
 
 .description h1 {
     font-size: 50px;
-    color: rgb(114, 95, 95);
+    color: rgb(30, 27, 27);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -53,9 +53,10 @@
 }
 
 .review-home h2 {
-    text-align: center;
+    margin-left: 55px;
     font-size: 35px;
     color: rgb(89, 84, 84);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .btn-div {
@@ -76,6 +77,14 @@
 
 @media screen and (max-width:680px) {
     .home-page {
-        background-color: red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .homepage-img img {
+        margin-left: 50px;
+        border-radius: 5px;
+        border: 1px solid red;
+        direction: 1;
     }
 }

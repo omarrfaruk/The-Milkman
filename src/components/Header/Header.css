@@ -32,6 +32,17 @@
 
 @media screen and (max-width: 680px) {
     .header {
-        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        margin-right: 5px;
+
+    }
+
+    .navbar a {
+        margin-right: 5px;
+        text-decoration: none;
     }
 }
